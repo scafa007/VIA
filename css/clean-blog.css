@@ -31,7 +31,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #0085A1;
+  color: #007bff;
 }
 
 blockquote {
@@ -58,13 +58,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #007bff;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #007bff;
   text-shadow: none;
 }
 
@@ -153,13 +153,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #007bff;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #007bff;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -173,6 +173,10 @@ img::-moz-selection {
 
 header.masthead {
   background: no-repeat center center;
+  height: 100vh;
+  min-height: 650px;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: #868e96;
   background-attachment: scroll;
   position: relative;
@@ -278,7 +282,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #007bff;
 }
 
 .post-preview > a > .post-title {
@@ -306,7 +310,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #0085A1;
+  color: #007bff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -370,7 +374,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #0085A1;
+  color: #007bff;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -435,17 +439,25 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #0085A1;
-  border-color: #0085A1;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #00657b !important;
-  border-color: #00657b !important;
+  background-color: #0069d9 !important;
+  border-color: #0069d9 !important;
 }
 
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+.display-4 {
+  font-size: 2rem;
+}
+
+section .align-items-center p, section .align-items-center ul, section .align-items-center .title-list {
+  font-size: 15px;
 }

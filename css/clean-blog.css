@@ -31,7 +31,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #007bff;
+  color: #868e96;
 }
 
 blockquote {
@@ -58,13 +58,13 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #007bff;
+  background: #868e96;
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #007bff;
+  background: #868e96;
   text-shadow: none;
 }
 
@@ -153,13 +153,13 @@ img::-moz-selection {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #007bff;
+    color: #868e96;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #007bff;
+    color: #868e96;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -282,7 +282,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #007bff;
+  color: #868e96;
 }
 
 .post-preview > a > .post-title {
@@ -310,7 +310,7 @@ header.masthead .post-heading .meta a {
 
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: underline;
-  color: #007bff;
+  color: #868e96;
 }
 
 @media only screen and (min-width: 768px) {
@@ -374,7 +374,7 @@ header.masthead .post-heading .meta a {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #007bff;
+  color: #868e96;
 }
 
 form .form-group:first-child .floating-label-form-group {
@@ -439,14 +439,22 @@ footer .copyright {
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #868e96;
+  border-color: #868e96;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #0069d9 !important;
-  border-color: #0069d9 !important;
+  background-color: #727b84 !important;
+  border-color: #727b84 !important;
+}
+
+.text-primary {
+  color: #868e96 !important;
+}
+
+.bg-primary {
+  background-color: #868e96 !important;
 }
 
 .btn-lg {

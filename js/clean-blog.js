@@ -21,8 +21,6 @@
             },
             function() {
                 var currentTop =$(window).scrollTop();
-                console.log(currentTop);
-                console.log(this.previousTop)
                 //check if user is scrolling up
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
@@ -81,3 +79,9 @@ $(window).scroll(function() {
         }
     });
 }).scroll();
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    container: 'body',
+    html: true
+  })
+})

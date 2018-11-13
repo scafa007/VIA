@@ -469,3 +469,7 @@ footer .copyright {
 section .align-items-center p, section .align-items-center ul, section .align-items-center .title-list {
   font-size: 15px;
 }
+
+.mw-25 {
+  max-width: 25% !important;
+}

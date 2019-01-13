@@ -9,7 +9,12 @@
 @import "sidebar.scss";
 @import "bootstrap-overrides.scss";
 @import "section.scss";
+@import "portofolio.scss";
 
 .mw-25 {
   max-width: 25% !important;
+}
+
+.service-box {
+  max-width: 400px;
 }
